@@ -1,0 +1,2 @@
+MUSESCORE =C:/Archivos de programa/MuseScore 4/bin/MuseScore4.exe
+FONT=C:/Windows/Fonts/arial.ttf
