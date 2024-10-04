@@ -9,7 +9,9 @@ El programa s'ha provat amb Windows11 i Windows7. Desconec com funciona amb una 
 El programa s'ha escrit en el llenguatge python i la interfície per a interaccionar-hi s'ha fet amb QtDesigner5. Es pot instal.lar a qualsevol directori o subdirectori de l'ordinador. S'hi han de copiar tots els arxius que hi ha dins del repostori. L'arxiu "executable" és intervals.py, els altres son arxius ui generats amb QtDesigner o altres arxius de suport.	
 
 L'arxiu config.txt és molt breu; només conté dues línies. En el meu ordinador el contingut és:
+
 MUSESCORE =C:\Program Files\MuseScore 4\bin\musescore4.exe
+
 FONT=C:\Windows\Fonts\arial.ttf
 
 Heu d'adaptar el contingut de config.txt al vostre ordinador. Obriu-lo amb el bloc de notes (o qualsevol editor de text sense format):
