@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1306</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>1241</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Entrenador per a escoltar, cantar i identificar intervals&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Primera Part. Escoltar i Cantar &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Aquesta part del programa et permetrà entrenar-te a escoltar i cantar intervals musicals per a poder-los reconèixer fàcilment.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Quan premis un dels botons de dalt ( de 2m, 2M ..... 7M , 8J) sonarà la primera nota de l'interval i al cap d'uns 2 segons la segona nota. Al llarg de la pausa, abans que soni la segona nota hauries de provar de cantar l'interval. El programa no t'escolta, quan soni la segona nota tu mateix has de comprovar si l'has cantat correctament o no. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;A la dreta i a dalt es poden definir:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- la nota arrel (hi ha l'opció que sigui aleatòria)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- l'octava&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- si vols un interval ascendent o descendent&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;- si vols que soni un arpegi o un acord&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Si s'ha fet que l'arrel sigui aleatòria es pot prémer el botó &amp;quot;Repetir Últim&amp;quot; per tornar a sentit l'últim interval que ha sonat. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Segona part. Entrenador d'intervals. Identificació&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Marcant la casella corresponent, pots fer que el programa faci sonar, a l'atzar, qualsevol dels intervals, o que trii entre els intervals majors (2M, 3M, 4J, 5J, 6M, 7M i 8J) o menors (2m, 3m, tritò, 6m i 7m).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Quan premis el botó &amp;quot;Toca Interval&amp;quot; sonarà un interval que has d'identificar prement el botó corresponent, 2m, 2M ..... 7M, 8J a dalt. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;A sota apareixeran en diferents caselles l'interval que has triat i l'interval que realment ha sonat, el nombre de proves que has fet, el nombre d'encerts i els noms dels intervals que no has encertat. Si no has encertat l'interval és convenient que premis el botó &amp;quot;Repetir Últim&amp;quot; perque torni a sonar el mateix interval.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Amb el botó &amp;quot;Reset Resultats&amp;quot; les proves i els encerts es posaran a 0.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;A la dreta i a dalt pots triar la nota arrel de l'interval (per defecte C), l'octava (per defecte 3) si l'interval ha de ser ascendent o descendent i si vols que soni com a arpegi o com a acord. Si es marca la casella &amp;quot;Arrel aleatòria&amp;quot;, cada vegada agafarà la nota arrel a l'atzar.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:115%; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BSortirAjuda">
+   <property name="geometry">
+    <rect>
+     <x>1032</x>
+     <y>750</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Sortir</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
