@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1306</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>1241</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:14pt;&quot;&gt;			     &lt;/span&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:14pt; font-weight:600;&quot;&gt;Intervals i acords en la guitarra o ukelele&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:14pt; font-weight:600; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;Quan el programa s'inicia apareix una finestra on es demana si l'instrument ha de ser la guitarra o l'ukelele. També es demana si la representació de les notes ha de ser l'anglosaxona (C,D,E,F,G,A,B) o la llatina (Do, Re, Mi...). &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;L'objectiu del programa es marcar en el diapasó de la guitarra o de l'ukelele les notes que corresponen a un acord o interval; les notes corresponents als diferents intervals es mostren en colors diferents. El diapasó es representa en una taula amb 6 columnes (les 6 cordes, de la 6a a la 1a) i 12 (fileres) trasts. El trast 0 (cordes a l'aire) i el 7 es pinten en colorcrema.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;Es pot triar si les alteracions de les notes es volen veure com a sostinguts o com a bemolls&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt; font-weight:600;&quot;&gt;Selecció de notes d'acords i d'intervals&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;El programa ofereix dues pestanyes: &amp;quot;Nom Acord&amp;quot; i &amp;quot;Interval&amp;quot;. En la primera es defineix un acord a partir del nom, en la segona es poden triar els intervals que es van afegint a la nota arrel. &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;Alguns dels paràmetres que s'han de triar són comuns a les dues pestanyes:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;Arrel només a les cordes 6,5,4: Aquesta opció només apareix quan s'ha triat com a instrument la guitarra i no en l'ukelele. Si es marca, la nota arrel només es dibuixa a les cordes 6,5 i 4, sinó, a totes les cordes&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;Establir l'afinació:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;- Si es marca Afinació Normal, s'establirà l'afinació per defecte de la guitarra  o ukelele(incloent-hi l'octava de cada nota). És la que es mostra en el requadre de fons blau, l'ordre és de la 6a corda a la 1a: E3 A3 D4....&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;- Si es marca &amp;quot;Afinació Usuari&amp;quot;, es podrà definir una afinació diferent de la normal. S'ha d'escriure cada nota amb: nom, alteració i octava, per exemple, C#4. Les alteracions possibles son # i b. Les notes han d'estar separades per espais i l'ordre és de la 6a corda a la 1a.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;S'ha de definir la nota arrel de l'acord o de l'interval (per defecte és C).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;Si es clica sobre la pestanya &amp;quot;Nom Acord&amp;quot; es podrà triar:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;- Tipus d'Acord: Major, Menor, Augmentat, Disminuit,3M5b, sus2, sus4, 	arrel, arrel i 3M , arrel i 3m, arrel i 4J, arrel i 5J.  Per defecte l'acord seleccionat és el major&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;	 &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;- Tipus Setena. Permet afegir una setena a l'acord; les opcions són:  cap, 7 (dominant), 7M, 7 dim&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;- Altres. Permet afegir altres notes. Les opcions són: cap, 2m, 2M, tritò, 6m, 6M, 9, 9b, 9#, 11, 13, 69&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;- A mesura que es va modificant l'acord apareixen les notes corresponents a la taula (a la dreta) on es representa el diapasó de la guitarra. A cada casella s'hi escriu la nota i, si s'escau, el nom de l'interval respecte l'arrel.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;En lloc de triar acords, la pestanya &amp;quot;Interval&amp;quot; permet anar afegint intervals a l'arrel. Hi ha 7 fileres, cadascuna de les quals conté els intervals que es poden afegir (només es pot triar un interval dins de cada filera, marcar &amp;quot;res&amp;quot; si no es vol posar cap interval) &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt; font-weight:600;&quot;&gt;Selecció de notes per tocar un acord o un arpegi&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;- Amb el botó de l'esquerra del ratolí es poden marcar notes a la taula que representa el diapasó de la guitarra. Aquestes notes es poden tocar com un acord o com un arpegi. L'ordre de les notes en l'arpegi serà el mateix en que s'hagin clicat. Los notes marcades en mostren de color gris. Si una nota marcada es torna a clicar amb el ratolí, es desmarca.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:transparent;&quot;&gt;&lt;span style=&quot; font-family:'Liberation Mono','monospace'; font-size:10pt;&quot;&gt;Quan es prem el botó &amp;quot;Tocar selecció&amp;quot;, si hi ha notes seleccionades es mostren en la casella &amp;quot;Acord triat&amp;quot;, sona l'acord o l'arpegi segons l'opció triada a &amp;quot;Sonar&amp;quot; (per defecte és &amp;quot;acord&amp;quot;) i es mostra la partitura a sota, amb el nom corresponent al tipus d'acord tal com l'identifica el programa &amp;quot;Musescore&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Liberation Mono','monospace'; font-size:10pt; background-color:transparent;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BSortirAjuda">
+   <property name="geometry">
+    <rect>
+     <x>1032</x>
+     <y>750</y>
+     <width>211</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Sortir</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
